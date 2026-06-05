@@ -52,19 +52,19 @@ const HeroSection = () => {
 
             {/* Social Links (external) */}
             <div className="flex items-center justify-center md:items-start md:justify-start gap-4 mt-8">
-              <a href="https://facebook.com" target="_blank">
+              <a href="https://www.facebook.com/deepak.ghotaney.gurung.2025" target="_blank">
                 <FaFacebook className="w-10 h-10 p-2 border rounded-full" />
               </a>
 
-              <a href="https://instagram.com" target="_blank">
+              <a href="https://www.instagram.com/_deepakgurung_/" target="_blank">
                 <FaInstagram className="w-10 h-10 p-2 border rounded-full" />
               </a>
 
-              <a href="https://linkedin.com" target="_blank">
+              <a href="https://www.linkedin.com/in/deepak-gurung-7971a02b2/" target="_blank">
                 <FaLinkedin className="w-10 h-10 p-2 border rounded-full" />
               </a>
 
-              <a href="https://github.com" target="_blank">
+              <a href="https://github.com/deepak-gurung" target="_blank">
                 <FaGithub className="w-10 h-10 p-2 border rounded-full" />
               </a>
             </div>
