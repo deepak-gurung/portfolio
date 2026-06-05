@@ -22,11 +22,13 @@ const HeroSection = () => {
             </h2>
 
             <p className="text-gray-600 mt-6 max-w-xl">
-              I build modern web apps using MERN stack.
+              I build modern, responsive, and scalable web applications using
+              MongoDB, Express.js, React, and Node.js. Passionate about creating
+              clean UI and seamless user experiences.
             </p>
 
             {/* Buttons */}
-            <div className="flex gap-4 mt-8">
+            <div className="flex items-center justify-center md:items-start md:justify-start gap-4 mt-8">
               <ScrollLink
                 to="projects"
                 smooth={true}
@@ -49,7 +51,7 @@ const HeroSection = () => {
             </div>
 
             {/* Social Links (external) */}
-            <div className="flex gap-4 mt-8">
+            <div className="flex items-center justify-center md:items-start md:justify-start gap-4 mt-8">
               <a href="https://facebook.com" target="_blank">
                 <FaFacebook className="w-10 h-10 p-2 border rounded-full" />
               </a>
