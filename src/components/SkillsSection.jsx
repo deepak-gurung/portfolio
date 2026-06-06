@@ -33,7 +33,7 @@ const SkillsSection = () => {
   return (
     <section
       id="skills"
-      className="bg-[#f2f1ef] py-16 px-6 lg:px-20"
+      className="bg-[#f2f1ef] py-18 px-6 lg:px-20"
     >
       <div className="container mx-auto text-center">
 

@@ -18,7 +18,12 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 z-50 w-full px-6 md:px-20 py-6 bg-[#f2f1ef] shadow">
       <div className="container m-auto flex items-center justify-between">
         {/* Logo */}
-        <h1 className="text-3xl font-bold cursor-pointer"><span className="text-red-500 font-semibold text-3xl">✺ </span>deepak.</h1>
+        <ScrollLink to="home" smooth={true} duration={500} offset={-80}>
+          <h1 className="text-3xl font-bold cursor-pointer">
+            <span className="text-red-500 font-semibold text-3xl">✺ </span>
+            deepak.
+          </h1>
+        </ScrollLink>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-6 font-semibold">
@@ -42,7 +47,10 @@ const Navbar = () => {
         </button>
 
         {/* Mobile toggle */}
-        <button onClick={() => setShowMenu(!showMenu)} className="md:hidden text-2xl cursor-pointer">
+        <button
+          onClick={() => setShowMenu(!showMenu)}
+          className="md:hidden text-2xl cursor-pointer"
+        >
           {showMenu ? <FaXmark /> : <FaBars />}
         </button>
       </div>
